@@ -1,0 +1,232 @@
+#nav-header {
+  background-color:#212930;
+  position:fixed;
+  width:100%;
+  z-index: 1;
+  border-bottom: 5px solid #17a2b8;
+}
+
+#createAccountButton {
+  margin-right: 5px;
+  border: 2px solid #fff;
+}
+
+#login1 {
+width: 100%;
+
+}
+
+#login2 {
+width: 100%;
+margin-top: 15px;
+}
+
+#password2 {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#password1 {
+  width: 100%;
+  margin-top: 15px;
+}
+#webTitle {
+  color: #fff;
+}
+.btn-primary {
+  background: #17a2b8;
+}
+
+.btn-primary:hover {
+  background: #138496;
+}
+
+#menuButton {
+  border: 2px solid #fff;
+}
+
+#loginButton {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+#addTaskButton {
+  border: 2px solid #fff;
+  margin-left: 5px;
+}
+
+#collapseSide {
+  float: left;
+}
+
+
+#spacer {
+  padding-top: 55px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  background: #212930;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #001000;
+}
+
+#homeSubmenu {
+  background: #001000;
+
+}
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  color: #fff;
+}
+#sidebar ul li a:hover {
+  color: #fff;
+  background: #17a2b8;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+  color: #fff;
+  background: #17a2b8;
+}
+
+#currentTab {
+  background:  #17a2b8;
+  color: #fff;
+}
+
+ul ul a {
+  font-size: 0.9em;
+  padding-left: 30px ;
+  background: #001000;
+}
+
+.modal-header {
+  background-color : #fff;
+}
+
+#mainContent {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  background: #fff;
+}
+
+#addTaskButton {
+position: relative;
+float: right;
+margin-right: 20px;
+}
+
+.card {
+  border: 2px solid #17a2b8;
+  min-width: 20%;
+  z-index: 0;
+  margin-bottom: 10px;
+}
+
+
+.card-header {
+ background: #212930;
+ color: #fff;
+ border-bottom: 2px solid #17a2b8;
+}
+
+.card-body {
+  background: #212930;
+  color: #fff;
+  border-bottom: 2px solid #17a2b8;
+  padding:7%;
+}
+
+#card-content {
+  width: 15%;
+}
+
+#descriptText {
+  width: 45%;
+}
+#cardSet2 {
+  margin-top: 5px;
+}
+
+#date {
+  float: right;
+}
+#cardButtons {
+  padding-right: 100px;
+  float:right;
+  border: 2px solid #FFF;
+}
+
+
+#submitLogin { 
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#formFooter {
+padding-top: 10px;
+}
+
+.form-control {
+max-width: 60%;
+}
+
+#dateInput {
+  margin-top: 15px;
+}
+
+#addTaskCard {
+margin-bottom: 15px;
+margin-top: 25px;
+}
+
+#cancelLogin{
+margin-top: 5px;
+}
+
+.loginFormButton {
+  border: 2px solid #fff;
+}
+
+.card-text {
+  width: 60%;
+}
