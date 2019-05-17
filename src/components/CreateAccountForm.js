@@ -60,7 +60,7 @@ class CreateAccountForm extends Component {
 
 
 
-            let url = "http://localhost:8181/demo/user";
+            let url = "/demo/user";
             let postRequest = new XMLHttpRequest();
             postRequest.open('POST', url);
 

@@ -15,7 +15,7 @@ class LoginForm extends Component {
     loadUser = () => {
 
         let data;
-        let url = "http://localhost:8181/demo/user/username/" + this.state.username;
+        let url = "/demo/user/username/" + this.state.username;
 
         let request = new XMLHttpRequest();
         request.open('GET', url);

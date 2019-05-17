@@ -52,7 +52,7 @@ class AddTaskForm extends Component {
 			userId: this.props.verified
 		}
 
-		let url = "http://localhost:8181/demo/task";
+		let url = "/demo/task";
 		let postRequest = new XMLHttpRequest();
 		postRequest.open('POST', url);
 

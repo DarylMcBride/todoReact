@@ -15,7 +15,7 @@ class Tasks extends Component {
     deleteTask = () => {
 
         let request = new XMLHttpRequest();
-        let url = "http://localhost:8181/demo/task/" + this.props.taskId;
+        let url = "/demo/task/" + this.props.taskId;
         request.open('DELETE', url);
         request.responseType = "json";
         request.onload = () => {
@@ -79,7 +79,7 @@ class Tasks extends Component {
             openDate: this.props.openDate
         }
 
-        let url = "http://localhost:8181/demo/task/" + this.props.taskId;
+        let url = "/demo/task/" + this.props.taskId;
         let postRequest = new XMLHttpRequest();
         postRequest.open('PUT', url);
 

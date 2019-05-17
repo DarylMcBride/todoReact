@@ -23,7 +23,7 @@ class NavHeader extends Component {
 
     loadAllTasks = () => {
         let data;
-        let url = "http://localhost:8181/demo/task/user/" +this.state.verfied.userId;
+        let url = "/demo/task/user/" +this.state.verfied.userId;
 
         let request = new XMLHttpRequest();
         request.open('GET', url);
